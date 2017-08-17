@@ -1,6 +1,5 @@
-# Why
+## Why
 I couldn't find a basic, easy postcss set up for experimentation with the [Shoelace framework](https://github.com/claviska/shoelace-css), so here's my attempt.
-
 
 ## To get it working
 
