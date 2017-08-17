@@ -1,0 +1,31 @@
+{
+  "name": "basic-postcss-setup-with-shoelace",
+  "version": "1.0.0",
+  "description": "Simplest npm-scripts setup with postcss and the shoelace framework",
+  "main": "src/css/index.css",
+  "scripts": {
+    "process-css": "postcss src/css/index.css --config postcss.config.json --output dist/styles.css",
+    "process-css-production": "postcss src/css/index.css --config postcss-production.config.js --output dist/styles.css"
+  },
+  "author": "Alex Holachek",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "postcss": "^6.0.9",
+    "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-import": "^10.0.0",
+    "postcss-nested": "^2.1.2",
+    "postcss-reporter": "^5.0.0"
+  },
+  "dependencies": {
+    "shoelace-css": "^1.0.0-beta16"
+  },
+  "keywords": [
+    "postcss",
+    "simple",
+    "shoelace",
+    "postcss-cli"
+  ]
+}
